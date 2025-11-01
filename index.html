@@ -1,199 +1,356 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Опис вашої сторінки">
-    <title>PR2</title>
+    <title>PR</title>
+    <style>
+        :root {
+            --main-color: rgb(64, 2, 94);
+            --secondary-color: #e9dfde;
+            --text-color: #000000;
+            --font-size: 16px;
+            --spacing: 20px;
+        }
+    </style>
+    </style>
+    <link rel="stylesheet" href="/pr2/css/style.css">
 </head>
+
 <body>
-    <header>
-        <h1><p style="text-align: center;">Моя улюблений гурт</p></h1>
-        <h1><p style="text-align: center;">Lamb of God</p></h1>
+    <header class="header-main">
+        <h1 class="nav-link">Мій улюблений гурт</h1>
+        <h1 class="nav-link">Lamb of God</h1>
         <nav>
-        <ol>
-            <li><a href="#fact">Цікаві факти</a></li>
-            <li><a href="#albom">Дискографія</a></li>
-            <li><a href="#Maps">Місто засновників</a></li>
-        </ol>
+            <ol>
+                <li><a href="#fact"><button type="button" class="button-main">факти</button></a></li>
+                <li><a href="#albom"><button type="button" class="button-main">Дискографія</button></a></li>
+                <li><a href="#Maps"><button type="button" class="button-main">Місто засновників</button></a></li>
+            </ol>
         </nav>
     </header>
 
     <main>
         <article>
-        <h2>Lamb of God — американський ґрув-метал гурт, утворений у 1994 році в <a href="#Maps">Річмонді, штат Вірджинія</a>.
-            Спочатку був відомий під назвою Burn the Priest, але змінив її після випуску дебютного (самоназваного) альбому у
-            1998 році.</h2>
-            <p>Історія Lamb of God починається у 1990 році, коли Кріс Адлер (англ. Chris Adler), Марк Мортон та Джон Кемпбелл (англ.
-            John Campbell) стали сусідами по гуртожитку в Університеті Співдружності Вірджинії (Virginia Commonwealth University). У
-            ті ж роки англійську мову в тому ж університеті вивчав і Ренді Блай, який слухав радикальний панк, тоді як його майбутні
-            колеги віддавали перевагу таким гуртам, як Dokken і Danzig.
-            
-            Через чотири роки тріо під назвою Burn the Priest зібралося в будинку, який орендував Кріс у районі Чьорч-Гілл, Річмонд,
-            щоб розпочати репетиції. «Там навіть не було опалення: гас і пиво Black Label служили нам паливом», — згадував Кемпбелл.
-            
-            На той час Мортон тимчасово залишив склад гурту (щоб захистити диплом) і був замінений Ейбом Спієром (англ. Abe Spear).
-            Незабаром (після виходу третього демо) до гурту приєднався вокаліст Ренді Блай, а потім повернувся і Мортон. У цьому
-            складі квартет випустив альбом Burn the Priest і два спліти — з Agents of Satan та ZED.
-            
-            Наприкінці 1999 року, коли до складу увійшов гітарист Віллі Адлер (брат Кріса).
-       <p> &lt;&lt;У той час мене переслідували дві проблеми: бідність і пияцтво. Втім, те саме міг сказати про себе кожен учасник гурту.
-        Це були цікаві часи. Якщо бути цілком відвертим — я не мав жодного уявлення, чим займаюся і у що вплутуюся.
-        
-        Мій вокал був записаний за один день, а весь альбом — за чотири. Пам’ятаю, коли я записував вокал, усі товпилися
-        довкола, дивилися й повторювали: «Ну ж бо, швидше, гроші закінчуються!» Я потроху лютував — один дубль за іншим роблю, а
-        їм усе здається, що повільно!
-        
-        Але зрештою вийшла, якщо так можна сказати, най«чистіша» наша платівка. Ми нічого від неї не чекали, коли починали —
-        мали мінімум засобів і, думаю, саме тому вона прозвучала дуже щиро.&gt;&gt;
-        — Р. Блай, журнал Kerrang!, березень 2009 року.</p>
-            <img src="https://www.nuclearblast.com/cdn/shop/articles/lamb-of-god2.jpg?v=1707135268" alt="Фото гурту" width="600" height="400">
+            <h2>Lamb of God — американський ґрув-метал гурт, утворений у 1994 році в <a href="#Maps">Річмонді, штат
+                    Вірджинія</a>.
+                Спочатку був відомий під назвою Burn the Priest, але змінив її після випуску дебютного (самоназваного)
+                альбому у
+                1998 році.</h2>
+            <p>Історія Lamb of God починається у 1990 році, коли Кріс Адлер (англ. Chris Adler), Марк Мортон та Джон
+                Кемпбелл (англ.
+                John Campbell) стали сусідами по гуртожитку в Університеті Співдружності Вірджинії (Virginia
+                Commonwealth University). У
+                ті ж роки англійську мову в тому ж університеті вивчав і Ренді Блай, який слухав радикальний панк, тоді
+                як його майбутні
+                колеги віддавали перевагу таким гуртам, як Dokken і Danzig.
+
+                Через чотири роки тріо під назвою Burn the Priest зібралося в будинку, який орендував Кріс у районі
+                Чьорч-Гілл, Річмонд,
+                щоб розпочати репетиції. «Там навіть не було опалення: гас і пиво Black Label служили нам паливом», —
+                згадував Кемпбелл.
+
+                На той час Мортон тимчасово залишив склад гурту (щоб захистити диплом) і був замінений Ейбом Спієром
+                (англ. Abe Spear).
+                Незабаром (після виходу третього демо) до гурту приєднався вокаліст Ренді Блай, а потім повернувся і
+                Мортон. У цьому
+                складі квартет випустив альбом Burn the Priest і два спліти — з Agents of Satan та ZED.
+
+                Наприкінці 1999 року, коли до складу увійшов гітарист Віллі Адлер (брат Кріса).
+            <p> &lt;&lt;У той час мене переслідували дві проблеми: бідність і пияцтво. Втім, те саме міг сказати про
+                себе кожен учасник гурту.
+                Це були цікаві часи. Якщо бути цілком відвертим — я не мав жодного уявлення, чим займаюся і у що
+                вплутуюся.
+
+                Мій вокал був записаний за один день, а весь альбом — за чотири. Пам’ятаю, коли я записував вокал, усі
+                товпилися
+                довкола, дивилися й повторювали: «Ну ж бо, швидше, гроші закінчуються!» Я потроху лютував — один дубль
+                за іншим роблю, а
+                їм усе здається, що повільно!
+
+                Але зрештою вийшла, якщо так можна сказати, най«чистіша» наша платівка. Ми нічого від неї не чекали,
+                коли починали —
+                мали мінімум засобів і, думаю, саме тому вона прозвучала дуже щиро.&gt;&gt;
+                — Р. Блай, журнал Kerrang!, березень 2009 року.</p>
+            <img src="https://www.nuclearblast.com/cdn/shop/articles/lamb-of-god2.jpg?v=1707135268" alt="Фото гурту"
+                width="600" height="400" class="foto-main">
         </article>
 
-        <section>
-        <article id="fact"><h2>Цікаві факти</h2>
-        </article>
+        <section class=".intro-section">
+            <article id="fact">
+                <h2>Цікаві факти</h2>
+            </article>
             <ul>
                 <li>Назву гурту було змінено на Lamb of God.
-                Причиною стали труднощі з організацією концертів — деякі власники майданчиків відмовляли гурту через «зловісну» назву.</li>
-                <li>У січні 2010 року гурт Lamb of God був номінований на премію Grammy за пісню «Set to Fail» у категорії «Найкраще
-                метал-виконання» (Best Metal Performance), але поступився гурту Judas Priest.</li>
+                    Причиною стали труднощі з організацією концертів — деякі власники майданчиків відмовляли гурту через
+                    «зловісну» назву.</li>
+                <li>У січні 2010 року гурт Lamb of God був номінований на премію Grammy за пісню «Set to Fail» у
+                    категорії «Найкраще
+                    метал-виконання» (Best Metal Performance), але поступився гурту Judas Priest.</li>
             </ul>
         </section>
 
         <section>
             <article id="albom">
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th colspan="4">Дискографія</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><h1>Обкладинка</h1></td>
-                        <td><h1>Назва альбому</h1></td>
-                        <td><h1>Дата випуску</h1></td>
-                        <td><h1>Найпопулярниша писня з альбому</h1></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <ul>
-                        <td><img src="https://upload.wikimedia.org/wikipedia/ru/c/c4/Lamb_of_God_—_Omens.jpg" alt="обкладинка Omens" width="120"></img></td>
-                        <td><h1><a href="https://www.youtube.com/watch?v=Nbq53qpUzHk&list=PLHTo__bpnlYXI5V2pKsj23t34VOvM19N-">Omens</a></p></h1></td>
-                        <td><h1><p style="text-align: center;">2022</p></h1></td>
-                        <td><h1><p style="text-align: center;">Omens
-                            <p><audio controls>
-                                <source src="song1/Lamb Of God - Omens.mp3" type="audio/mpeg">
-                            </audio>
-                        </p></h1></td>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th colspan="4">Дискографія</th>
                         </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td><img src="https://upload.wikimedia.org/wikipedia/ru/f/fc/Lamb_of_God_-_Lamb_of_God.jpg" alt="обкладинка Lamb of God"  width="120"></img></td>
-                        <td><h1><a href="https://www.youtube.com/watch?v=hBj0-dIU8HI&list=OLAK5uy_lal-DoqFTnG8QmbVE3T0RIElNFDgyEfLo">Lamb of God</a></h1></td>
-                        <td><h1><p style="text-align: center;">2020</p></h1></td>
-                        <td><h1><p style="text-align: center;">Memento Mori
-                            <p><audio controls>
-                                <source src="song1/Lamb_Of_God_-_Memento_Mori_(SkySound.cc).mp3" type="audio/mpeg">
-                            </audio>
-                        </p></h1></td>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <h1>Обкладинка</h1>
+                            </td>
+                            <td>
+                                <h1>Назва альбому</h1>
+                            </td>
+                            <td>
+                                <h1>Дата випуску</h1>
+                            </td>
+                            <td>
+                                <h1>Найпопулярниша писня з альбому</h1>
+                            </td>
                         </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td><img
-                            src="https://upload.wikimedia.org/wikipedia/ru/thumb/9/9f/Lamb_Of_God_-_VII-_Sturm_Und_Drang.jpg/330px-Lamb_Of_God_-_VII-_Sturm_Und_Drang.jpg" alt="обкладинка VII: Sturm und Drang"  width="120"></img></td>
-                        <td><h1><a href="https://www.youtube.com/watch?v=OCmBWOF1A0g&list=OLAK5uy_k0OLmSoKa-MJ5-K5rv6Yxn4QFnPO3hhuA">VII: Sturm und Drang</a></h1></td>
-                        <td><h1><p style="text-align: center;">2015</p></h1></td>
-                        <td><h1><p style="text-align: center;">512
-                            <p><audio controls>
-                                    <source src="song1/512.mp3" type="audio/mpeg">
-                                </audio>
-                        </p></h1></td>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <ul>
+                                <td><img src="https://upload.wikimedia.org/wikipedia/ru/c/c4/Lamb_of_God_—_Omens.jpg"
+                                        alt="обкладинка Omens"></img></td>
+                                <td>
+                                    <h1><a
+                                            href="https://www.youtube.com/watch?v=Nbq53qpUzHk&list=PLHTo__bpnlYXI5V2pKsj23t34VOvM19N-">Omens</a>
+                                    </h1>
+                                </td>
+                                <td>
+                                    <h1>
+                                        <p style="text-align: center;">2022</p>
+                                    </h1>
+                                </td>
+                                <td>
+                                    <h1>
+                                        <p style="text-align: center;">Omens</p>
+                                        <p><audio controls>
+                                                <source src="song1/Lamb Of God - Omens.mp3" type="audio/mpeg">
+                                            </audio>
+                                        </p>
+                                    </h1>
+                                </td>
                         </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td><img src="https://upload.wikimedia.org/wikipedia/en/e/e0/LOG_Resolution.jpg" alt="обкладинка Resolution"  width="120"></img></td>
-                        <td><h1><a href="https://www.youtube.com/watch?v=MpKCA-pkSiw&list=OLAK5uy_lIJjZlWfxFFlA-shGqJmYTbAewlb_5IMg">Resolution</a></h1></td>
-                        <td><h1><p style="text-align: center;">2012</p></h1></td>
-                        <td><h1><p style="text-align: center;">Ghost Walking
-                            <p><audio controls>
-                                    <source src="song2/Lamb-of-God-Ghost-Walking-Official-Video.mp3" type="audio/mpeg">
-                                </audio>
-                        </p></h1></td>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td><img src="https://upload.wikimedia.org/wikipedia/ru/f/fc/Lamb_of_God_-_Lamb_of_God.jpg"
+                                    alt="обкладинка Lamb of God"></img></td>
+                            <td>
+                                <h1><a
+                                        href="https://www.youtube.com/watch?v=hBj0-dIU8HI&list=OLAK5uy_lal-DoqFTnG8QmbVE3T0RIElNFDgyEfLo">Lamb
+                                        of God</a></h1>
+                            </td>
+                            <td>
+                                <h1>
+                                    <p style="text-align: center;">2020</p>
+                                </h1>
+                            </td>
+                            <td>
+                                <h1>
+                                    <p style="text-align: center;">Memento Mori
+                                    <p><audio controls>
+                                            <source class="song"
+                                                src="song1/Lamb_Of_God_-_Memento_Mori_(SkySound.cc).mp3"
+                                                type="audio/mpeg">
+                                        </audio>
+                                    </p>
+                                </h1>
+                            </td>
                         </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td><img src="https://upload.wikimedia.org/wikipedia/en/f/ff/Lamb_of_God_-_Wrath.JPG" alt="обкладинка Wrath" width="120"></img></td>
-                        <td><h1><a href="https://www.youtube.com/watch?v=6l4AT8YYalU&list=OLAK5uy_lfXEY8mWtr0viqdXXA0bulOEhG6Pfp9JI">Wrath</a></h1></td>
-                        <td><h1><p style="text-align: center;">2009</p></h1></td>
-                        <td><h1><p style="text-align: center;">Set To Fail
-                            <p><audio controls>
-                                    <source src="song2/Lamb Of God - Set To Fail.mp3" type="audio/mpeg">
-                                </audio>
-                        </p></h1></td>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td><img src="https://upload.wikimedia.org/wikipedia/ru/thumb/9/9f/Lamb_Of_God_-_VII-_Sturm_Und_Drang.jpg/330px-Lamb_Of_God_-_VII-_Sturm_Und_Drang.jpg"
+                                    alt="обкладинка VII: Sturm und Drang"></img></td>
+                            <td>
+                                <h1><a
+                                        href="https://www.youtube.com/watch?v=OCmBWOF1A0g&list=OLAK5uy_k0OLmSoKa-MJ5-K5rv6Yxn4QFnPO3hhuA">VII:
+                                        Sturm und Drang</a></h1>
+                            </td>
+                            <td>
+                                <h1>
+                                    <p style="text-align: center;">2015</p>
+                                </h1>
+                            </td>
+                            <td>
+                                <h1>
+                                    <p style="text-align: center;">512
+                                    <p><audio controls>
+                                            <source src="song1/512.mp3" type="audio/mpeg">
+                                        </audio>
+                                    </p>
+                                </h1>
+                            </td>
                         </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td><img src="https://upload.wikimedia.org/wikipedia/ru/0/08/Обложка_альбома_Lamb_of_God_Sacrament.jpg" alt="обкладинка Sacrament" width="120"></img></td>
-                        <td><h1><a href="https://www.youtube.com/watch?v=QWkhCxCcWSE&list=OLAK5uy_mI0kziqVnLSrM9XM5epupJLqHot-vT_4c">Sacrament</a></h1></td>
-                        <td><h1><p style="text-align: center;">2006</p></h1></td>
-                        <td><h1><p style="text-align: center;">Readneck
-                            <p><audio controls>
-                                    <source src="song2/Lamb Of God - Redneck.mp3" type="audio/mpeg">
-                                </audio>
-                        </p></h1></td>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td><img src="https://upload.wikimedia.org/wikipedia/en/e/e0/LOG_Resolution.jpg"
+                                    alt="обкладинка Resolution"></img></td>
+                            <td>
+                                <h1><a
+                                        href="https://www.youtube.com/watch?v=MpKCA-pkSiw&list=OLAK5uy_lIJjZlWfxFFlA-shGqJmYTbAewlb_5IMg">Resolution</a>
+                                </h1>
+                            </td>
+                            <td>
+                                <h1>
+                                    <p style="text-align: center;">2012</p>
+                                </h1>
+                            </td>
+                            <td>
+                                <h1>
+                                    <p style="text-align: center;">Ghost Walking
+                                    <p><audio controls>
+                                            <source src="song2/Lamb-of-God-Ghost-Walking-Official-Video.mp3"
+                                                type="audio/mpeg">
+                                        </audio>
+                                    </p>
+                                </h1>
+                            </td>
                         </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td><img src="https://upload.wikimedia.org/wikipedia/ru/e/ec/Обложка_альбома_Lamb_of_God_Ashes_of_the_Wake.jpg" alt="обкладинка Ashes of the Wake" width="120"></img></td>
-                        <td><h1><a href="https://www.youtube.com/watch?v=HL9kaJZw8iw&list=OLAK5uy_k-pQ1ht-yUSBRw2_ASWfTi6mMP3Jjewn0">Ashes of the Wake</a></h1></td>
-                        <td><h1><p style="text-align: center;">2004</p></h1></td>
-                        <td><h1><p style="text-align: center;">Laid ro Rest
-                            <p><audio controls>
-                                    <source src="song3/Lamb Of God - Laid To Rest.mp3" type="audio/mpeg">
-                                </audio>
-                        </p></h1></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td><img src="https://upload.wikimedia.org/wikipedia/ru/thumb/7/75/AsthePalacesBurn.jpg/330px-AsthePalacesBurn.jpg" alt="обкладинка As the Palaces Burn" width="120"></img></td>
-                        <td><h1><a href="https://www.youtube.com/watch?v=iFm9v0wvEnw&list=OLAK5uy_lwnf-iMEfici_7T4v1xbs7wAGTB77QBoc">As The Places Burn</a></h1></td>
-                        <td><h1><p style="text-align: center;">2003</p></h1></td>
-                        <td><h1><p style="text-align: center;">Ruin
-                            <p><audio controls>
-                                    <source src="song3/Lamb Of God - Ruin.mp3" type="audio/mpeg">
-                                </audio>
-                        </p></h1></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td><img
-                            src="https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Lamb_of_God_New_American_Gospel_album_cover.jpg/250px-Lamb_of_God_New_American_Gospel_album_cover.jpg" alt="обкладинка new american gospel" width="120"></img></td>
-                        <td><h1><p style="text-align: center;"><a href="https://www.youtube.com/watch?v=2htX-ijkMgo&list=PLg3MX5enKXZV-oDCCaOpdYGqWbC-zDjpN">New American Gospel</a></p></h1></td>
-                        <td><h1><p style="text-align: center;">2000</p></h1></td>
-                        <td><h1><p style="text-align: center;">Black Label
-                            <p><audio controls>
-                                    <source src="song3/Lamb-of-God-Black-Label-HQ.mp3" type="audio/mpeg">
-                                </audio>
-                        </p></h1></td>
-                        </ul>
-                    </tr>
-                </tbody>
-             </table>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td><img src="https://upload.wikimedia.org/wikipedia/en/f/ff/Lamb_of_God_-_Wrath.JPG"
+                                    alt="обкладинка Wrath"></img></td>
+                            <td>
+                                <h1><a
+                                        href="https://www.youtube.com/watch?v=6l4AT8YYalU&list=OLAK5uy_lfXEY8mWtr0viqdXXA0bulOEhG6Pfp9JI">Wrath</a>
+                                </h1>
+                            </td>
+                            <td>
+                                <h1>
+                                    <p style="text-align: center;">2009</p>
+                                </h1>
+                            </td>
+                            <td>
+                                <h1>
+                                    <p style="text-align: center;">Set To Fail
+                                    <p><audio controls>
+                                            <source src="song2/Lamb Of God - Set To Fail.mp3" type="audio/mpeg">
+                                        </audio>
+                                    </p>
+                                </h1>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td><img src="https://upload.wikimedia.org/wikipedia/ru/0/08/Обложка_альбома_Lamb_of_God_Sacrament.jpg"
+                                    alt="обкладинка Sacrament"></img></td>
+                            <td>
+                                <h1><a
+                                        href="https://www.youtube.com/watch?v=QWkhCxCcWSE&list=OLAK5uy_mI0kziqVnLSrM9XM5epupJLqHot-vT_4c">Sacrament</a>
+                                </h1>
+                            </td>
+                            <td>
+                                <h1>
+                                    <p style="text-align: center;">2006</p>
+                                </h1>
+                            </td>
+                            <td>
+                                <h1>
+                                    <p style="text-align: center;">Readneck
+                                    <p><audio controls>
+                                            <source src="song2/Lamb Of God - Redneck.mp3" type="audio/mpeg">
+                                        </audio>
+                                    </p>
+                                </h1>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td><img src="https://upload.wikimedia.org/wikipedia/ru/e/ec/Обложка_альбома_Lamb_of_God_Ashes_of_the_Wake.jpg"
+                                    alt="обкладинка Ashes of the Wake"></img></td>
+                            <td>
+                                <h1><a
+                                        href="https://www.youtube.com/watch?v=HL9kaJZw8iw&list=OLAK5uy_k-pQ1ht-yUSBRw2_ASWfTi6mMP3Jjewn0">Ashes
+                                        of the Wake</a></h1>
+                            </td>
+                            <td>
+                                <h1>
+                                    <p style="text-align: center;">2004</p>
+                                </h1>
+                            </td>
+                            <td>
+                                <h1>
+                                    <p style="text-align: center;">Laid ro Rest
+                                    <p><audio controls>
+                                            <source src="song3/Lamb Of God - Laid To Rest.mp3" type="audio/mpeg">
+                                        </audio>
+                                    </p>
+                                </h1>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td><img src="https://upload.wikimedia.org/wikipedia/ru/thumb/7/75/AsthePalacesBurn.jpg/330px-AsthePalacesBurn.jpg"
+                                    alt="обкладинка As the Palaces Burn"></img></td>
+                            <td>
+                                <h1><a
+                                        href="https://www.youtube.com/watch?v=iFm9v0wvEnw&list=OLAK5uy_lwnf-iMEfici_7T4v1xbs7wAGTB77QBoc">As
+                                        The Places Burn</a></h1>
+                            </td>
+                            <td>
+                                <h1>
+                                    <p style="text-align: center;">2003</p>
+                                </h1>
+                            </td>
+                            <td>
+                                <h1>
+                                    <p style="text-align: center;">Ruin
+                                    <p><audio controls>
+                                            <source src="song3/Lamb Of God - Ruin.mp3" type="audio/mpeg">
+                                        </audio>
+                                    </p>
+                                </h1>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Lamb_of_God_New_American_Gospel_album_cover.jpg/250px-Lamb_of_God_New_American_Gospel_album_cover.jpg"
+                                    alt="обкладинка new american gospel"></img></td>
+                            <td>
+                                <h1><a
+                                        href="https://www.youtube.com/watch?v=2htX-ijkMgo&list=PLg3MX5enKXZV-oDCCaOpdYGqWbC-zDjpN">New
+                                        American Gospel</a></h1>
+                            </td>
+                            <td>
+                                <h1>
+                                    <p style="text-align: center;">2000</p>
+                                </h1>
+                            </td>
+                            <td>
+                                <h1>
+                                    <p style="text-align: center;">Black Label
+                                    <p><audio controls>
+                                            <source src="song3/Lamb-of-God-Black-Label-HQ.mp3" type="audio/mpeg">
+                                        </audio>
+                                    </p>
+                                </h1>
+                            </td>
+                            </ul>
+                        </tr>
+                    </tbody>
+                </table>
         </section>
         </article>
         <article id="Maps">
-        <H2>Місто засновників</H2>
+            <H2>Місто засновників</H2>
         </article>
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101963.21815670688!2d-77.49658834506158!3d37.55072982700947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b111095799c9ed%3A0xbfd83e6de2423cc5!2z0KDQuNGH0LzQvtC90LQsINCS0LjRgNC00LbQuNC90LjRjywg0KHQqNCQ!5e1!3m2!1sru!2sua!4v1761820335820!5m2!1sru!2sua"
